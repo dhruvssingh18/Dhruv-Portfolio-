@@ -13,6 +13,7 @@
   --color-pink: #edadd2;
 }
 
+
 .formcarry-container {
   /* container */
   --c-width: 70%;
@@ -1314,3 +1315,69 @@ gap:10px;
   }
   
 }
+
+@media (max-width: 360px) {
+  .image-container1 {
+    
+      display: flex; 
+      justify-content: center;
+      align-items: center; /* Centers vertically, if needed */
+      transform:scale(0.7); 
+      position:relative; 
+    
+      left:-30px; 
+
+  }
+
+}
+
+@media (max-width: 391px) {
+  .image-container1 {
+    
+      display: flex; 
+      justify-content: center;
+      align-items: center; /* Centers vertically, if needed */
+      transform:scale(0.7); 
+      position:relative; 
+    
+      left:-10px; 
+
+  }
+
+}
+
+
+@media (max-width: 376px) {
+  .image-container1 {
+    
+    display: flex; 
+    justify-content: center;
+    align-items: center; /* Centers vertically, if needed */
+    transform:scale(0.7); 
+    position:relative; 
+
+    left:-23px; 
+
+  }
+
+}
+
+@media (max-width: 415px) {
+  .image-container1 {
+    
+      display: flex; 
+      justify-content: center;
+      align-items: center; /* Centers vertically, if needed */
+      transform:scale(0.7); 
+      margin-right: 20px;
+      margin-left:3px; 
+      
+      
+     
+
+  }
+
+
+   
+}
+
